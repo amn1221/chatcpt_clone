@@ -33,7 +33,7 @@ const generateAssistantAnswer = async ({ historyRows, question }) => {
     model: GEMINI_MODEL,
     history: formattedHistory,  // Now formattedHistory is defined
     config: {
-      maxOutputTokens: 1024,
+      maxOutputTokens: 8194,
     }
   });
 
